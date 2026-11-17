@@ -1,0 +1,28 @@
+# Dados brutos e intermediários pesados
+data/raw/
+data/reference/
+results/02_trimmed/
+*.fastq
+*.fastq.gz
+*.fq.gz
+*.bam
+*.sam
+*.bai
+
+# Ficheiros temporários do Nextflow
+.nextflow/
+.nextflow.log*
+work/
+
+# R e Quarto
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata/
+*_files/
+*.html
+
+# Sistema operativo e IDEs
+.DS_Store
+Thumbs.db
+.vscode/
